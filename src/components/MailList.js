@@ -1,20 +1,16 @@
-import React from 'react'
+import React from "react";
 
 const MailList = () => {
   return (
-   <div className='newsletter'>
-     <div className='emailform'>
-     <form action="#">
-     <input type="email" name="email" id="email" placeholder="Your Email" class="form-control" />
-     <button className="btn" type="submit">Submit</button>
-     </form>
-     </div>
+    <div className="maiList">
+      <div className="maliContainer">
+        <h1> Save time , Save money!</h1>
+        <p> Sing up and we'll send the best deatals to you</p>
+        <input type="search" id="search" placeholder="Your Email" />
+        <button className="btn">Subscribe</button>
+      </div>
+    </div>
+  );
+};
 
-   </div>
-
-    
-   
-  )
-}
-
-export default MailList
+export default MailList;
