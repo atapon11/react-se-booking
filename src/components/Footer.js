@@ -3,46 +3,46 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="footerItems">
-        <div className="row">
-          <p>Countries</p>
-          <p>Reaions</p>
-          <p>Cities</p>
-          <p>Districts</p>
-          <p>Airports</p>
-          <p>Hotels</p>
-        </div>
-        <div className="row">
-          <p>Homes</p>
-          <p>Apartments</p>
-          <p>Resorts</p>
-          <p>Villas</p>
-          <p>Hostels</p>
-          <p>Guest houses</p>
-        </div>
-        <div className="row">
-          <p>Unique places to stay</p>
-          <p>Reviews</p>
-          <p>Unpacked : Travel artcies</p>
-          <p>Travel communities</p>
-          <p>Seasonal and holiday deals</p>
-        </div>
-        <div className="row">
-          <p>Car rental</p>
-          <p>Flight Finder</p>
-          <p>Restaurant reservations</p>
-          <p>Travel Agents</p>
-        </div>
-        <div className="row">
-          <p>Curtomer Service</p>
-          <p>Partner Help</p>
-          <p>Careers</p>
-          <p>Sustainability</p>
-          <p>Press center</p>
-          <p>Safety Resource Center</p>
-          <p>Investor relations</p>
-          <p>Terms & conditions</p>
-        </div>
+      <div className="footeLists">
+        <ul className="list">
+          <li className="listItem">Countries</li>
+          <li className="listItem">Reaions</li>
+          <li className="listItem">Cities</li>
+          <li className="listItem">Districts</li>
+          <li className="listItem">Airports</li>
+          <li className="listItem">Hotels</li>
+        </ul>
+        <ul className="list">
+          <li className="listItem">Homes</li>
+          <li className="listItem">Apartments</li>
+          <li className="listItem">Resorts</li>
+          <li className="listItem">Villas</li>
+          <li className="listItem">Hostels</li>
+          <li className="listItem">Guest houses</li>
+        </ul>
+        <ul className="list">
+          <li className="listItem">Unique places to stay</li>
+          <li className="listItem">Reviews</li>
+          <li className="listItem">Unpacked : Travel artcies</li>
+          <li className="listItem">Travel communities</li>
+          <li className="listItem">Seasonal and holiday deals</li>
+        </ul>
+        <ul className="list">
+          <li className="listItem">Car rental</li>
+          <li className="listItem">Flight Finder</li>
+          <li className="listItem">Restaurant reservations</li>
+          <li className="listItem">Travel Agents</li>
+        </ul>
+        <ul className="list">
+          <li className="listItem">Curtomer Service</li>
+          <li className="listItem">Partner Help</li>
+          <li className="listItem">Careers</li>
+          <li className="listItem">Sustainability</li>
+          <li className="listItem">Press center</li>
+          <li className="listItem">Safety Resource Center</li>
+          <li className="listItem">Investor relations</li>
+          <li className="listItem">Terms & conditions</li>
+        </ul>
       </div>
     </div>
   );
